@@ -1,6 +1,6 @@
 # oneclickvscode
 
-CMD File zur Installation von
+CMD File zur Installation via winget von
 * Visualstudio Code
 * Python 3
 * 7zip
