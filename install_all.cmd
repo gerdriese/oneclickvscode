@@ -1,5 +1,5 @@
 @echo off
-echo Installation von VSCode und Python sowie einigen Plugins fuer Python.
+echo Installation von VSCode und Python sowie einigen Plugins fuer VSCode (Python, Docstring, CSV).
 
 for %%G in (Microsoft.VisualStudioCode Python.Python.3.11) do (
     winget install %%G
