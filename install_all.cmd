@@ -5,7 +5,7 @@ for %%G in (Microsoft.VisualStudioCode Python.Python.3.12) do (
     winget install %%G
 )
 
-@IF EXIST "%LOCALAPPDATA%\Programs\Python\Python311\python.exe" "%LOCALAPPDATA%\Programs\Python\Python311\python.exe" -m pip install --upgrade pip
+@IF EXIST "%LOCALAPPDATA%\Programs\Python\Python311\python.exe" "%LOCALAPPDATA%\Programs\Python\Python312\python.exe" -m pip install --upgrade pip
 
 for %%G in (ms-python.python njpwerner.autodocstring mechatroner.rainbow-csv janisdd.vscode-edit-csv) do (
 	@echo Installing %%G
